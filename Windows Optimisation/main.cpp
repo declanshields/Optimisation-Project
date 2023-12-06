@@ -256,6 +256,18 @@ void keyboard(unsigned char key, int x, int y) {
     {
         TrackerManager::WalkTheHeap();
     }
+
+    if (key == '2')
+    {
+        vector<TimeData> Temp = TimeProfiler::TimeProfilerData;
+        for (int i = 0; i < Temp.size(); i++)
+        {
+            std::cout << "Function Name: " << Temp[i].FunctionName << std::endl;
+            std::cout << "  -Total Time Taken: " << Temp[i].TotalTime << "s. \n";
+            std::cout << "  -Average Time: " << Temp[i].AverageTime << " s. \n";
+            std::cout << "  -Times Called: " << Temp[i].TimesCalled << "\n" << "\n";
+        }
+    }
 #endif
 
 #ifndef NDEBUG
