@@ -8,5 +8,5 @@ This project then needed to be ported to Linux, this code is provided to inspect
 The project is currently configured to run with 1000 cubes, a quadtree of depth 3 (or 32 even quadrants) and 16 threads.
 
 Controls:
--To output memory information to the console, press '1'
--To output time information to the console, press '2'
+<ul>To output memory information to the console, press '1'</ul>
+<ul>To output time information to the console, press '2'</ul>
