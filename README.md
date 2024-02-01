@@ -10,3 +10,6 @@ The project is currently configured to run with 1000 cubes, a quadtree of depth 
 Controls:
 <ul>To output memory information to the console, press '1'</ul>
 <ul>To output time information to the console, press '2'</ul>
+
+Data analysis:
+On average, Linux performs better than Windows, this is probably because Linux is a customisable system, as such there are a lot less programs installed when Linux is installed. Due to this, there are less processes running in the background, allowing Linux to have more resources available to handle the project compared to Windows.
